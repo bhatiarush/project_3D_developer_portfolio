@@ -16,13 +16,21 @@ import {
   figma,
   docker,
   meta,
+  smallcase,
   starbucks,
   tesla,
+  webknot,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  cyberflow,
+  mui,
+  bootstrap,
+  mernfitness,
+  utubeclone,
+  photogram,
 } from "../assets";
 
 export const navLinks = [
@@ -40,24 +48,24 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
+// const services = [
+//   {
+//     title: "Web Developer",
+//     icon: web,
+//   },
+//   {
+//     title: "React Native Developer",
+//     icon: mobile,
+//   },
+//   {
+//     title: "Backend Developer",
+//     icon: backend,
+//   },
+//   {
+//     title: "Content Creator",
+//     icon: creator,
+//   },
+// ];
 
 const technologies = [
   {
@@ -89,12 +97,12 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Material UI",
+    icon: mui,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Bootstrap CSS",
+    icon: bootstrap,
   },
   {
     name: "Three JS",
@@ -104,67 +112,45 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer Intern",
+    company_name: "smallcase",
+    icon: smallcase,
+    iconBg: "white",
+    date: "Aug 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to contribute to their products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer Intern",
+    company_name: "Webknot Technologies Pvt Ltd",
+    icon: webknot,
+    iconBg: "white",
+    date: "May 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing the client applications using React.js and typescript.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design, suitable for client and ensuring cross-browser compatibility.",
+      "Contributing to framing documentary and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Web Developer Intern",
+    company_name: "CyberFlow",
+    icon: cyberflow,
+    iconBg: "white",
+    date: "Feb 2023 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining their dashboard using React.js and Material-UI.",
+      "Collaborating with senior developers to create high-quality product.",
+      "Implementing responsive design.",
     ],
   },
 ];
@@ -172,94 +158,106 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Arush have been consistent in delivering the tasks provided to him within the stipulated time alloted. He has been a good debugger as well for resolving bugs.",
+    name: "Sumanth Hegde",
+    designation: "Senior Full stack developer",
+    company: "Webknot Technologies",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I am happy to have worked with Arush as a fellow-developer. He brings fresh ideas and views in the team, and is always ready to take up the challenging tasks.",
+    name: "Ayan Srivastava",
+    designation: "Senior Front end developer",
+    company: "Webknot Technologies",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Arush has been very consistent in serving the requirements of a fast-paced environment. He is very curious to learn and explore new things in development.",
+    name: "Harsha",
+    designation: "Manager",
+    company: "Webknot Technologies",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "FITNESS APP",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A CRUD application that helps users organize their exercise schedules.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "white",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mernfitness,
+    source_code_link: "https://github.com/bhatiaji27/mern-app",
   },
   {
-    name: "Job IT",
+    name: "YouTube Clone App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of the YouTube app built using React that fetches latest feed to your screen.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "css",
+        color: "white",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: utubeclone,
+    source_code_link: "https://github.com/bhatiaji27/yt_clone",
   },
   {
-    name: "Trip Guide",
+    name: "Photo-gram Feed App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Next.js web application that serves the latest feed and user profiles from an API.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "white",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: photogram,
+    source_code_link: "https://github.com/bhatiaji27/feed_assgn",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, testimonials, projects };

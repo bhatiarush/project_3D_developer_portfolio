@@ -20,25 +20,35 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mui from "./tech/mui.png";
+import bootstrap from "./tech/bootstrap.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import smallcase from "./company/smallcase.png";
+import webknot from "./company/webknot.jpeg";
 import tesla from "./company/tesla.png";
+import cyberflow from "./company/cyberflow.jpeg";
 
+import mernfitness from "./mernfitness.png";
+import utubeclone from "./utubeclone.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import photogram from "./photogram.png";
 
 export {
   logo,
   backend,
   creator,
+  cyberflow,
   mobile,
   web,
   github,
   menu,
   close,
+  bootstrap,
   css,
   docker,
   figma,
@@ -46,6 +56,7 @@ export {
   html,
   javascript,
   mongodb,
+  mui,
   nodejs,
   reactjs,
   redux,
@@ -54,9 +65,14 @@ export {
   threejs,
   meta,
   shopify,
+  smallcase,
   starbucks,
   tesla,
+  webknot,
+  mernfitness,
   carrent,
   jobit,
   tripguide,
+  utubeclone,
+  photogram,
 };
